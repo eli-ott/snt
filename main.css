@@ -26,10 +26,10 @@ body{
 @media screen and (max-width: 800px){
   :root{
     --headerFontSize: 7vh;
-    --secondHeaderFontSize: 4vh;
-    --mainContentFontSize: 2vh;
+    --secondHeaderFontSize: 3vh;
+    --mainContentFontSize: 1.5vh;
     --menuHeight: 7vh;
-    --linksMargin: 0.5vh;
+    --linksMargin: 1vh;
   }
 }
 @media screen and (min-width: 801px){
