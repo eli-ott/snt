@@ -36,7 +36,7 @@ body{
   :root{
     --headerFontSize: 10vh;
     --secondHeaderFontSize: 5vh;
-    --mainContentFontSize: 2.5vh;
+    --mainContentFontSize: 2vh;
     --menuHeight: 4.5vh;
     --linksMargin: 10vh 15vh 0 15vh;
   }
