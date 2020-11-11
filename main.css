@@ -1,0 +1,96 @@
+:root{
+  --mainColor: #ffdf50;
+  --MainBackgroundColor: #343434;
+  --headerFontSize: 10vh;
+  --secondHeaderFontSize: 5vh;
+  --mainContentFontSize: 2.5vh;
+  --menuHeight: 4.5vh;
+  --linksMargin: 10vh 15vh 0 15vh;
+}
+html{
+  margin: 0;
+  padding: 0;
+  font-family: monospace;
+  text-align: center;
+  color: var(--mainColor);
+  background: var(--MainBackgroundColor);
+  height: 96%;
+  margin-top: 5px;
+  cursor: default;
+}
+body{
+  height: 100%;
+  overflow: hidden;
+  border: solid var(--mainColor) 2px;
+}
+@media screen and (max-width: 800px){
+  :root{
+    --headerFontSize: 7vh;
+    --secondHeaderFontSize: 4vh;
+    --mainContentFontSize: 2vh;
+    --menuHeight: 7vh;
+    --linksMargin: 0.5vh;
+  }
+}
+@media screen and (min-width: 801px){
+  :root{
+    --headerFontSize: 10vh;
+    --secondHeaderFontSize: 5vh;
+    --mainContentFontSize: 2.5vh;
+    --menuHeight: 4.5vh;
+    --linksMargin: 10vh 15vh 0 15vh;
+  }
+}
+img#menu{
+  position: absolute;
+  cursor: pointer;
+  width: 4vh;
+  top: 2vh;
+  left: 2vh;
+}
+section#menuContent{
+  position: absolute;
+  top: 0.5vh;
+  left: 0;
+  width: 100%;
+  background: var(--mainColor);
+  height: var(--menuHeight);
+  display: none;
+}
+img#back{
+  position: absolute;
+  width: 4vh;
+  top: 0;
+  left: 0;
+  cursor: pointer;
+}
+a.links{
+  color: white;
+  font-size: 3vh;
+  margin: var(--linksMargin);
+  text-decoration: none;
+  transition: 0.3s;
+}
+a:hover{
+  color: var(--MainBackgroundColor);
+}
+hr{
+  border: none;
+  width: 2px;
+  background-color: var(--mainColor);
+}
+p#header{
+  padding: 0;
+  margin: 0;
+  font-size: var(--headerFontSize);
+  font-weight: 900;
+  color: #fff;
+}
+p.header2{
+  font-size: var(--secondHeaderFontSize);
+  vertical-align: middle;
+  text-decoration: underline;
+}
+p.mainText{
+  font-size: var(--mainContentFontSize);
+}

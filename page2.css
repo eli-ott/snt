@@ -1,0 +1,51 @@
+:root{
+    --pianoRotation: 0deg;
+    --pianoTopMargin: 15vh;
+    --whiteKeyHeight: 30vh;
+    --whiteKeyWidth: 10vh;
+    --blackKeyHeight: 20vh;
+    --blackKeyWidth: 5vh;
+}
+@media screen and (max-width: 530px){
+    :root{
+        --pianoRotation: 90deg; 
+        --pianoTopMargin: 20vh;
+        --whiteKeyHeight: 50vh;
+        --whiteKeyWidth: 35vh;
+        --blackKeyHeight: 40vh;
+        --blackKeyWidth: 20vh;
+    }
+}
+div#allNotes{
+    transform: rotate(var(--pianoRotation));
+    margin-top: var(--pianoTopMargin);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+div.whiteNotes{
+    width: var(--whiteKeyWidth);
+    height: var(--whiteKeyHeight);
+    background: white;
+    border: solid black;
+    color: black;
+    margin: 0;
+}
+div.whiteNotes:hover{
+    background: #c2c2c2;
+}
+div.blackNotes{
+    position: relative;
+    height: var(--blackKeyHeight);
+    width: var(--blackKeyWidth);
+    background: black;
+    border: solid black;
+    color: white;
+    margin: 0 -3vh 0;
+}
+div.blackNotes:hover{
+    background: rgb(31, 31, 31);
+}
+p{
+    padding-top: 250%;
+}
