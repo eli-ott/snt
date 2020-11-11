@@ -9,11 +9,11 @@
 @media screen and (max-width: 530px){
     :root{
         --pianoRotation: 90deg; 
-        --pianoTopMargin: 10vh;
-        --whiteKeyHeight: 50vh;
+        --pianoTopMargin: 6vh;
+        --whiteKeyHeight: 40vh;
         --whiteKeyWidth: 35vh;
-        --blackKeyHeight: 40vh;
-        --blackKeyWidth: 20vh;
+        --blackKeyHeight: 35vh;
+        --blackKeyWidth: 30vh;
     }
 }
 div#allNotes{
