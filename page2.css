@@ -9,7 +9,7 @@
 @media screen and (max-width: 530px){
     :root{
         --pianoRotation: 90deg; 
-        --pianoTopMargin: 20vh;
+        --pianoTopMargin: 10vh;
         --whiteKeyHeight: 50vh;
         --whiteKeyWidth: 35vh;
         --blackKeyHeight: 40vh;
