@@ -94,3 +94,9 @@ p.header2{
 p.mainText{
   font-size: var(--mainContentFontSize);
 }
+p#header{
+  font-size: 10px;
+  position: absolute;
+  bottom: 1vh;
+  right: 3vh;
+}
