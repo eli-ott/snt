@@ -35,6 +35,7 @@ body{
   }
   html{
     background: #323232;
+  }
 }
 @media screen and (min-width: 801px){
   :root{
