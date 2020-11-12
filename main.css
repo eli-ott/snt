@@ -23,7 +23,7 @@ body{
   height: 100%;
   overflow: hidden;
   border: solid var(--mainColor) 2px;
-  backdrop-filter: brightness(25%);
+  backdrop-filter: brightness(15%);
   color: var(--mainColor);
 }
 @media screen and (max-width: 800px){
