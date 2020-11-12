@@ -15,6 +15,7 @@ html{
   color: var(--mainColor);
   background: url("background.jpg");
   background-repeat: no-repeat;
+  background-size: fill;
   height: 96%;
   margin-top: 5px;
   cursor: default;
