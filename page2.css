@@ -11,9 +11,9 @@
         --pianoRotation: 90deg; 
         --pianoTopMargin: 8vh;
         --whiteKeyHeight: 40vh;
-        --whiteKeyWidth: 35vh;
+        --whiteKeyWidth: 37vh;
         --blackKeyHeight: 25vh;
-        --blackKeyWidth: 20vh;
+        --blackKeyWidth: 22vh;
     }
 }
 div#allNotes{
