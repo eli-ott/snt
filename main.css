@@ -94,7 +94,7 @@ p.header2{
 p.mainText{
   font-size: var(--mainContentFontSize);
 }
-p#header{
+p#author{
   font-size: 10px;
   position: absolute;
   bottom: 1vh;
