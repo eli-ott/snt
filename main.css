@@ -13,11 +13,12 @@ html{
   font-family: monospace;
   text-align: center;
   color: var(--mainColor);
-  background: url("background.jpg") fill;
+  background: url("background.jpg");
   background-repeat: no-repeat;
   height: 96%;
   margin-top: 5px;
   cursor: default;
+  background-size: 50%;
 }
 body{
   height: 100%;
