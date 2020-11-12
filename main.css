@@ -1,11 +1,11 @@
 :root{
   --mainColor: #ffdf50;
-  --MainBackgroundColor: #343434;
   --headerFontSize: 10vh;
   --secondHeaderFontSize: 5vh;
   --mainContentFontSize: 2.5vh;
   --menuHeight: 4.5vh;
   --linksMargin: 10vh 15vh 0 15vh;
+  --picWidth: 50%;
 }
 html{
   margin: 0;
@@ -13,7 +13,8 @@ html{
   font-family: monospace;
   text-align: center;
   color: var(--mainColor);
-  background: var(--MainBackgroundColor);
+  background: url("background.jpg") fill;
+  background-repeat: no-repeat;
   height: 96%;
   margin-top: 5px;
   cursor: default;
@@ -30,6 +31,7 @@ body{
     --mainContentFontSize: 1.6vh;
     --menuHeight: 7vh;
     --linksMargin: 2vh;
+    --picWidth: 30%;
   }
 }
 @media screen and (min-width: 801px){
@@ -99,4 +101,7 @@ p#author{
   position: absolute;
   bottom: 1vh;
   right: 4vh;
+}
+img#pic{
+  width: var(--picWidth)
 }
