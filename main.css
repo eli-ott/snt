@@ -27,9 +27,9 @@ body{
   :root{
     --headerFontSize: 7vh;
     --secondHeaderFontSize: 3vh;
-    --mainContentFontSize: 1.5vh;
+    --mainContentFontSize: 1.7vh;
     --menuHeight: 7vh;
-    --linksMargin: 1vh;
+    --linksMargin: 1.2vh;
   }
 }
 @media screen and (min-width: 801px){
