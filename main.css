@@ -29,7 +29,7 @@ body{
     --secondHeaderFontSize: 3vh;
     --mainContentFontSize: 1.6vh;
     --menuHeight: 7vh;
-    --linksMargin: 1.2vh;
+    --linksMargin: 1.5vh;
   }
 }
 @media screen and (min-width: 801px){
