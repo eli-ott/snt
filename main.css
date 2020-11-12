@@ -24,6 +24,7 @@ body{
   overflow: hidden;
   border: solid var(--mainColor) 2px;
   backdrop-filter: brightness(15%);
+  color: var(--mainColor);
 }
 @media screen and (max-width: 800px){
   :root{
