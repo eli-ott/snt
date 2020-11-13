@@ -87,7 +87,7 @@ a.links{
   transition: 0.3s;
 }
 a:hover{
-  color: var(--MainBackgroundColor);
+  color: #323232;
 }
 hr{
   border: none;
