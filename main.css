@@ -67,8 +67,7 @@ img#menu:hover{
   transform: scale(1.1);
 }
 section#menuContent{
-  position: absolute;
-  top: 0.2vh;
+  position: absolute;;
   left: 0;
   width: 100%;
   background: var(--mainColor);
