@@ -59,7 +59,7 @@ img#menu{
   position: absolute;
   cursor: pointer;
   width: 6vh;
-  top: 2vh;
+  top: 1.7vh;
   left: 2vh;
   transition: 0.3s;
 }
