@@ -5,6 +5,7 @@
   --mainContentFontSize: 2.5vh;
   --menuHeight: 5.5vh;
   --linksMargin: 10vh 15vh 0 15vh;
+  --linksFontSize: 5vh;
 }
 html{
   margin: 0;
@@ -32,6 +33,7 @@ body{
     --secondHeaderFontSize: 3vh;
     --mainContentFontSize: 1.6vh;
     --menuHeight: 8vh;
+    --linksFontSize: 3.5vh;
     --linksMargin: 2vh;
   }
   html{
@@ -44,6 +46,7 @@ body{
     --secondHeaderFontSize: 5vh;
     --mainContentFontSize: 2.5vh;
     --menuHeight: 5.5vh;
+    --linksFontSize: 5vh;
     --linksMargin: 10vh 15vh 0 15vh;
   }
   html{
@@ -81,7 +84,7 @@ img#back{
 }
 a.links{
   color: white;
-  font-size: 5vh;
+  font-size: var(--linksFontSize);
   margin: var(--linksMargin);
   text-decoration: none;
   transition: 0.3s;
