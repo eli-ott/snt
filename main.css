@@ -58,6 +58,7 @@ img#menu{
   width: 6vh;
   top: 2vh;
   left: 2vh;
+  transition: 0.3s;
 }
 img#menu:hover{
   transform: scale(1.1);
