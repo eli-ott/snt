@@ -59,7 +59,7 @@ img#menu{
   position: absolute;
   cursor: pointer;
   width: 6vh;
-  top: 1.7vh;
+  top: 1.5vh;
   left: 2vh;
   transition: 0.3s;
 }
@@ -68,7 +68,6 @@ img#menu:hover{
 }
 section#menuContent{
   position: absolute;
-  top: 0.5vh;
   left: 0;
   width: 100%;
   background: var(--mainColor);
