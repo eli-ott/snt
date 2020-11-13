@@ -59,6 +59,9 @@ img#menu{
   top: 2vh;
   left: 2vh;
 }
+img#menu:hover{
+  transform: scale(1.1);
+}
 section#menuContent{
   position: absolute;
   top: 0.5vh;
