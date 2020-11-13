@@ -1,3 +1,8 @@
+//we remove the loading animation when the page is load
+$(window).ready(function(){
+    $("#loader1").fadeOut(500);
+});
+
 //display the menu when the button is clicked
 $("#menu").on("click", () => {
     $("#menuContent").slideDown();
