@@ -3,7 +3,7 @@
   --headerFontSize: 10vh;
   --secondHeaderFontSize: 5vh;
   --mainContentFontSize: 2.5vh;
-  --menuHeight: 4.5vh;
+  --menuHeight: 5.5vh;
   --linksMargin: 10vh 15vh 0 15vh;
 }
 html{
@@ -31,7 +31,7 @@ body{
     --headerFontSize: 7vh;
     --secondHeaderFontSize: 3vh;
     --mainContentFontSize: 1.6vh;
-    --menuHeight: 7vh;
+    --menuHeight: 8vh;
     --linksMargin: 2vh;
   }
   html{
@@ -43,7 +43,7 @@ body{
     --headerFontSize: 10vh;
     --secondHeaderFontSize: 5vh;
     --mainContentFontSize: 2.5vh;
-    --menuHeight: 4.5vh;
+    --menuHeight: 5.5vh;
     --linksMargin: 10vh 15vh 0 15vh;
   }
   html{
@@ -81,7 +81,7 @@ img#back{
 }
 a.links{
   color: white;
-  font-size: 3vh;
+  font-size: 5vh;
   margin: var(--linksMargin);
   text-decoration: none;
   transition: 0.3s;
