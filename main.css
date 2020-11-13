@@ -107,7 +107,7 @@ p.header2{
   text-decoration: underline;
 }
 p.mainText{
-  font-size: #323232;
+  font-size: var(--mainContentFontSize);
 }
 p#author{
   font-size: 10px;
