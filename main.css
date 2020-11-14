@@ -34,7 +34,7 @@ body{
     --mainContentFontSize: 1.6vh;
     --menuHeight: 8vh;
     --linksFontSize: 3.5vh;
-    --linksMargin: 3vh;
+    --linksMargin: 5vh;
   }
   html{
     background: #323232;
