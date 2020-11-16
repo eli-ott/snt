@@ -15,10 +15,10 @@ html{
   color: var(--mainColor);
   background: url("background.jpg");
   background-repeat: no-repeat;
+  background-size: cover;
   height: 96%;
   margin-top: 5px;
   cursor: default;
-  background-size: 100%;
 }
 body{
   height: 100%;
@@ -35,9 +35,6 @@ body{
     --menuHeight: 8vh;
     --linksFontSize: 3.5vh;
     --linksMargin: 5vh;
-  }
-  html{
-    background: #323232;
   }
 }
 @media screen and (min-width: 801px){
